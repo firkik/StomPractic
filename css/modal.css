@@ -1,0 +1,146 @@
+.section__modal {
+  width: 418px;
+  height: 647px;
+  margin: 70px auto;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  text-align: center;
+  padding: 0 29px;
+}
+
+.section__modal h1 {
+  padding-top: 27px;
+  font-family: "Roboto Mono";
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: #252525;
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+
+.section__modal form input {
+  width: calc(100% - 19px);
+  height: 51px;
+  background: #eef6ff 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding-left: 19px;
+  font-size: 18px;
+  color: #3881e0;
+}
+
+.section__modal form input::placeholder {
+  font-family: "Roboto Mono";
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #3881e0;
+}
+
+.section__modal form .submit {
+  width: 100%;
+  height: 51px;
+  margin-top: 80px;
+  background: transparent linear-gradient(90deg, #00aaff 0%, #3271fe 100%) 0% 0%
+    no-repeat padding-box;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Roboto Mono';
+  font-weight: 400;
+  letter-spacing: 0px;
+  border: none;
+  margin-bottom: 26px;
+}
+
+.section__modal form .error {
+  text-align: left;
+  font-size: 16px;
+  font-family: 'Roboto Mono';
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #ff4848;
+}
+
+.section__modal form .input-error {
+  border: 1px solid #ff4848;
+}
+
+.section__modal form .input-error::placeholder {
+    font-size: 18px;
+  font-family: 'Roboto Mono';
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #ff4848;
+}
+
+.section__modal a {
+  margin-bottom: 22px;
+  text-decoration: underline;
+  font-size: 18px;
+  font-family: 'Roboto Mono';
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #3881e0;
+  display: block;
+}
+
+.section__modal .link__reg h3 {
+  margin-top: 54px;
+  font-size: 18px;
+  font-family: 'Roboto Mono';
+  font-weight: 300;
+  letter-spacing: 0px;
+  color: #252525;
+}
+
+.section__modal .link__reg a {
+  width: 100%;
+  height: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #9a9a9a;
+  border-radius: 8px;
+  font-size: 18px;
+  font-family: 'Roboto Mono';
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #9a9a9a;
+  text-decoration: none;
+  margin-top: 14px;
+}
+
+.error-modal {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: error .7s linear forwards;
+  opacity: 0;
+}
+
+.error-modal p {
+  font-size: 14px;
+  font-family: 'Roboto Mono';
+  font-weight: 500;
+  animation: error .7s linear forwards;
+}
+
+@keyframes error {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

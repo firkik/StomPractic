@@ -1,0 +1,112 @@
+:root {
+    --width: 1000px;
+}
+
+.section__price, .section__about, .section__contact {
+    width: var(--width);
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px 27px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.section__price h1, .section__about h1, .section__contact h1 {
+    font-family: 'Roboto Mono';
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.section__price table {
+    width: 100%;
+    border: 1px solid #7e7c7c;   
+}
+
+.section__price table tr {
+    width: 100%;
+    border: 1px solid #7e7c7c;
+    
+}
+
+.section__price table thead tr td {
+    font-family: 'Roboto Mono';
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    height: 70px;
+} 
+
+.section__price table tr td {
+    width: 50%;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Roboto Mono';
+    font-size: 18px;
+    font-weight: 300;
+    border-bottom: 1px solid #000;
+    height: 50px;
+}
+
+.section__contact .contact__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.section__contact .contact__container .contact {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+}
+
+.section__contact .contact__container .contact img {
+    width: 60px;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.section__contact .contact__container .contact p {
+    font-family: 'Roboto Mono';
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.section__contact .contact__container hr {
+    border: 1px solid #7e7c7c;
+    width: 0;
+    height: 150px;
+}
+
+.section__about {
+    position: relative;
+}
+
+.section__about h1 {
+    margin-bottom: 15px;
+}
+
+.section__about h2 {
+    font-family: 'Roboto Mono';
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.section__about p {
+    width: 40%;
+    font-family: 'Roboto Mono';
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.section__about img {
+    position: absolute;
+    top: 150px;
+    right: 60px;
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+}
